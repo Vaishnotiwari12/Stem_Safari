@@ -49,7 +49,7 @@ interface SafariQuest {
   animalGuide: string
 }
 
-export default function STEMSafariInterface() {
+export default function STEMSathiInterface() {
   const [isOnline, setIsOnline] = useState(true)
   const [selectedLanguage, setSelectedLanguage] = useState("English")
   const [explorerXP, setExplorerXP] = useState(1250)
@@ -213,11 +213,11 @@ export default function STEMSafariInterface() {
                 <Binoculars className="h-6 w-6 text-primary-foreground" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-xl font-bold text-foreground">STEM Safari</h1>
+                <h1 className="text-xl font-bold text-foreground">STEM Sathi</h1>
                 <p className="text-sm text-muted-foreground">Adventure Learning Platform</p>
               </div>
               <div className="sm:hidden">
-                <h1 className="text-lg font-bold text-foreground">STEM Safari</h1>
+                <h1 className="text-lg font-bold text-foreground">STEM Sathi</h1>
               </div>
             </div>
 
@@ -253,7 +253,7 @@ export default function STEMSafariInterface() {
 
               <Button variant="outline" size="sm" className="hidden sm:block bg-transparent">
                 <Volume2 className="h-4 w-4 mr-2" />
-                Safari Guide
+                STEM Sathi
               </Button>
             </div>
           </div>
@@ -269,7 +269,7 @@ export default function STEMSafariInterface() {
                   <TreePine className="h-8 w-8 text-primary-foreground" />
                 </div>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to STEM Safari!</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to STEM Sathi!</h2>
               <p className="text-gray-600 mb-6">
                 Embark on an educational adventure with animal guides through the world of science and mathematics
               </p>
@@ -278,7 +278,7 @@ export default function STEMSafariInterface() {
                 <Link href="/signup/student">
                   <Button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 h-auto">
                     <GraduationCap className="h-5 w-5 mr-2" />
-                    Start Your Safari
+                    Start with STEM Sathi
                     <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </Link>
@@ -620,12 +620,12 @@ export default function STEMSafariInterface() {
                     ) : quest.progress > 0 ? (
                       <>
                         <Play className="h-4 w-4 mr-2" />
-                        Continue Safari
+                        Continue with STEM Sathi
                       </>
                     ) : (
                       <>
                         <Play className="h-4 w-4 mr-2" />
-                        Start Safari
+                        Start with STEM Sathi
                       </>
                     )}
                   </Button>
@@ -647,7 +647,7 @@ export default function STEMSafariInterface() {
             >
               <Link href="/">
                 <Map className="h-5 w-5 flex-shrink-0" />
-                <span className="text-xs truncate w-full text-center">Safari</span>
+                <span className="text-xs truncate w-full text-center">STEM Sathi</span>
               </Link>
             </Button>
             <Button
